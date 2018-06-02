@@ -4,7 +4,7 @@ var util = require("util"),
     http = require("http"),
     fs = require('fs');
 
-var parsed_url = "http://ia601901.us.archive.org/4/items/RedumpSonyPlayStationAmerica20160617/";
+var parsed_url = "http://ia601901.us.archive.org/4/items/..";
 
 function download_file_httpget (host, match_array) {
 
